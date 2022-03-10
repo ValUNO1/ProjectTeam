@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'mfl.apps.MflConfig',
+    'mfl_bookstore.apps.MflConfig',
     'crispy_forms',
 ]
 
