@@ -2,25 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c983da7-e7f8-426d-88d1-d739e8a654d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TeamProjectmfl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectTeam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamProjectmfl/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeamProjectmfl/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mfl_bookstore/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/mfl/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/mfl/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/mfl/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mfl_bookstore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_8_22,_2_58_PM_[Changes]/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_8_22,_2_58_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_8_22__2_58_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl_bookstore/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl_bookstore/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,10 +40,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mfl_bookstore/templates/mfl" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="ProjectTeam" type="Python.DjangoServer" factoryName="Django server">
@@ -47,6 +58,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="TeamProjectmfl.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -74,7 +86,10 @@
       <option name="presentableId" value="Default" />
       <updated>1646772749087</updated>
       <workItem from="1646772761147" duration="503000" />
-      <workItem from="1646942540915" duration="4750000" />
+      <workItem from="1646942540915" duration="5448000" />
+      <workItem from="1646948224345" duration="5000" />
+      <workItem from="1647373621544" duration="754000" />
+      <workItem from="1647376216315" duration="4265000" />
     </task>
     <servers />
   </component>
