@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c983da7-e7f8-426d-88d1-d739e8a654d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mfl_bookstore/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/mfl/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/mfl/homepage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/mfl/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mfl_bookstore/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_8_22,_2_58_PM_[Changes]/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_8_22,_2_58_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_8_22__2_58_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl_bookstore/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl_bookstore/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +20,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,7 +88,8 @@
       <workItem from="1646942540915" duration="5448000" />
       <workItem from="1646948224345" duration="5000" />
       <workItem from="1647373621544" duration="754000" />
-      <workItem from="1647376216315" duration="4265000" />
+      <workItem from="1647376216315" duration="5351000" />
+      <workItem from="1647451325378" duration="925000" />
     </task>
     <servers />
   </component>
