@@ -5,7 +5,6 @@ app_name = "mfl_bookstore"
 
 
 urlpatterns = [
-    path("homepage", views.homepage, name="homepage"),
-    #...
-    path("register", views.register_request, name="registration")
+    path('', views.upload_book, name='upload_book'),
+    path('upload_book', views.upload_book, name='upload_book'),
 ]

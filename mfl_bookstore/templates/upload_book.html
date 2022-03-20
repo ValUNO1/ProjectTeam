@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+{% block content %}
+
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Favorite Bookstore</title>
+    </head>
+    <body class="booklist">
+
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Welcome!</div>
+            <div class="panel-body">
+                Every book is your success!.
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h2>Book Information</h2>
+    </div>
+    <div>
+        <table class="table table-striped table-bordered table-hover w-auto">
+            <thead>
+            <tr class="bg-info">
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Stock Number</th>
+                <th>Coverpage</th>
+                <th>Status</th>
+                <th>Description</th>
+
+                <th colspan="3">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for book in books %}
+                <tr>
+                    <td>{{  book.author }}</td>
+                    <td>{{  book.genre }}</td>
+                    <td>{{  book.coverpage }}</td>
+                    <td>{{  book.title }}</td>
+                    <td>{{  book.price }}</td>
+                    <td>{{  book.stock }}</td>
+                    <td>{{  book.status }}</td>
+                    <td>{{  book.description }}</td>
+                    <td><a href=""
+                            class="btn btn-warning">Edit</a></td>
+                    <td><a href=""
+                            onclick="return confirm('Are you sure you want to delete?')">
+                            class="btn btn-danger">Delete</a>
+                    </td>
+
+                    <td><a href=""
+                            class="btn btn-primar">Summary</a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+    </div>
+    </body>
+    </html>
+{% endblock %}
+
+</html>
