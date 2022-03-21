@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ProjectTeam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectTeam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamProjectmfl/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeamProjectmfl/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl_bookstore/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl_bookstore/templates/mfl/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl_bookstore/templates/mfl/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/templates/upload_book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl_bookstore/templates/mfl/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl_bookstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl_bookstore/templates/upload_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/templates/upload_book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mfl_bookstore/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647807383164</updated>
-      <workItem from="1647807398353" duration="4783000" />
+      <workItem from="1647807398353" duration="5929000" />
     </task>
     <servers />
   </component>
