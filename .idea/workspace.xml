@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamProjectmfl/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeamProjectmfl/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mfl_bookstore/templates/upload_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/templates/upload_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl_bookstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mfl_bookstore/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -70,7 +75,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647807383164</updated>
-      <workItem from="1647807398353" duration="5929000" />
+      <workItem from="1647807398353" duration="7012000" />
+      <workItem from="1647902076900" duration="6284000" />
+      <workItem from="1647964557043" duration="3080000" />
+      <workItem from="1647999473612" duration="97000" />
     </task>
     <servers />
   </component>
