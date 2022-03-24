@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl_bookstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +78,9 @@
       <workItem from="1647999473612" duration="97000" />
       <workItem from="1648084253929" duration="197000" />
       <workItem from="1648091706713" duration="615000" />
+      <workItem from="1648093206655" duration="138000" />
+      <workItem from="1648094362658" duration="106000" />
+      <workItem from="1648096580652" duration="11000" />
     </task>
     <servers />
   </component>
