@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mfl_bookstore/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamProjectmfl/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeamProjectmfl/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl_bookstore/templates/upload_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/templates/upload_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl_bookstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mfl_bookstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl_bookstore/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_pics/dorcas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +80,8 @@
       <workItem from="1647902076900" duration="6284000" />
       <workItem from="1647964557043" duration="3080000" />
       <workItem from="1647999473612" duration="97000" />
+      <workItem from="1648084253929" duration="197000" />
+      <workItem from="1648091706713" duration="308000" />
     </task>
     <servers />
   </component>
