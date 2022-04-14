@@ -1,0 +1,32 @@
+{% extends 'mfl/base.html' %}
+{% block content %}
+    <div>
+        <img class="rounded-circle article-img" src="{{ profile.image.url }}">
+    </div>
+
+    <div class="content-section">
+        <div class="w3-container w3-teal">
+            <h1>Books</h1>
+        </div>
+        <a href="#">
+        <img src="../media/bookshelf/book.jpg" alt="Books" width="150px" height="160px">
+        </a>
+    </div>
+    <div class="content-section">
+        <div class="w3-container w3-teal">
+            <h1>Author</h1>
+        </div>
+        <a href="#">
+        <img src="../media/bookshelf/author.jpg" alt="Author" width="150px" height="160px">
+        </a>
+    </div>
+    <div class="content-section">
+        <div class="w3-container w3-teal">
+            <h1>Genre</h1>
+        </div>
+        <a href="#">
+        <img src="../media/bookshelf/genre.jpg" alt="Genre" width="150px" height="160px">
+        </a>
+    </div>
+
+{% endblock content %}
