@@ -33,6 +33,8 @@ urlpatterns = [
 
     path('', include('mfl.urls')),
     path('', include('bookstore.urls')),
+    path('', include('cart.urls', namespace='cart')),
+    path('', include('orders.urls', namespace='orders')),
 ]
 
 if settings.DEBUG:

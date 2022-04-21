@@ -1,0 +1,16 @@
+{% extends 'mfl/base.html' %}
+
+{% block content %}
+  <h1>Book List</h1>
+  {% if books %}
+  <ul>
+    {% for book in books %}
+        <a href="{{ book.get_absolute_url }}">
+            <img src="{{ book.image.url }}" title="{{ book.title }}" width="200px" height="250px">
+        </a>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p>There are no books in the library.</p>
+  {% endif %}
+{% endblock %}
