@@ -1,11 +1,11 @@
 body {
-  background-image: url("library.jpg");
-  color: white;
+  background: #fafafa;
+  color: #333333;
   margin-top: 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: white;
+  color: #444444;
 }
 
 ul {
