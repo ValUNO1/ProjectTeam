@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 from . import views
 
 app_name = 'cart'
@@ -11,4 +11,6 @@ urlpatterns = [
     path('remove/<int:book_id>/',
          views.cart_remove,
          name='cart_remove'),
+
+    path('password/', views.change_password, name='change_password'),
 ]

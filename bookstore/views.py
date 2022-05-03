@@ -41,3 +41,6 @@ class GenreListView(LoginRequiredMixin, ListView):
 
 class GenreDetailView(LoginRequiredMixin, DetailView):
     model = Genre
+
+
+

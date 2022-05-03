@@ -38,6 +38,8 @@
                 {% if user.is_authenticated %}
                     <a class="nav-item nav-link" href="{% url 'bookshelf' %}">BookShelf</a>
                     <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+                    <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+
                     <div class="cart">
                       {% with total_items=cart|length %}
                           {% if cart|length > 0 %}
@@ -51,7 +53,7 @@
                           {% endif %}
                         {% endwith %}
                     </div>
-                    <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+
                 {% else %}
                     <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
                     <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>

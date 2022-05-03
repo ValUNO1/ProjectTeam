@@ -142,3 +142,11 @@ EMAIL_FILE_PATH = BASE_DIR / 'sent_emails'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# config/settings.py
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'bhargavkishore111@gmail.com'
+EMAIL_HOST_PASSWORD = 'asnndevsugvfeqyd'
