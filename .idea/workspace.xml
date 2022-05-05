@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ProjectTeam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectTeam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/template/orders/order/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/template/orders/order/pdf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +111,7 @@
       <workItem from="1650554724584" duration="180000" />
       <workItem from="1651031836295" duration="8953000" />
       <workItem from="1651608385563" duration="1218000" />
+      <workItem from="1651775740944" duration="1113000" />
     </task>
     <servers />
   </component>
@@ -133,6 +130,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ProjectTeam$.coverage" NAME=" Coverage Results" MODIFIED="1651608403002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/ProjectTeam$.coverage" NAME=" Coverage Results" MODIFIED="1651776859366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
   </component>
 </project>

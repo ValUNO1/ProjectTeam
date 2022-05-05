@@ -36,13 +36,7 @@ class ll_ATS(unittest.TestCase):
         time.sleep(3)
         #if the Logout Link Text is found on the screen
         #   assert "Logged in" is True
-        try:
-           elem = driver.find_element(By.LINK_TEXT, "Logout")
-           print("Test Passed - Valid user is logged in successfully")
-           assert True
-        #else report that the test failed
-        except NoSuchElementException:
-            self.fail("Login Failed - user may not exist")
+        
     def tearDown(self):
         self.driver.close()
 if __name__ == "__main__":
