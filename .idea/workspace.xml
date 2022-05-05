@@ -5,14 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/ProjectTeam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectTeam.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/templates/mfl/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl_bookstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/template/orders/order/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/template/orders/order/pdf.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +114,7 @@
       <workItem from="1650553637998" duration="73000" />
       <workItem from="1650554724584" duration="180000" />
       <workItem from="1651031836295" duration="8953000" />
-      <workItem from="1651608385563" duration="373000" />
+      <workItem from="1651608385563" duration="1218000" />
     </task>
     <servers />
   </component>
