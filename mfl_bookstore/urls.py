@@ -35,6 +35,7 @@ urlpatterns = [
     path('', include('bookstore.urls')),
     path('', include('cart.urls', namespace='cart')),
     path('', include('orders.urls', namespace='orders')),
+    path('', include('payment.urls', namespace='payment')),
 ]
 
 if settings.DEBUG:

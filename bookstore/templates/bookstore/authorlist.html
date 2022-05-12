@@ -5,8 +5,11 @@
   {% if authors %}
   <ul>
     {% for author in authors %}
-      <a href="{{ author.get_absolute_url }}">
+      <a style="display: inline-block; margin: 10px" href="{{ author.get_absolute_url }}">
             <img src="{{ author.photo.url }}" title="{{ author.first_name }} {{ author.last_name }}" width="200px" height="200px">
+            <p>
+                {{ author.first_name }} {{ author.last_name }}
+            </p>
         </a>
     {% endfor %}
   </ul>

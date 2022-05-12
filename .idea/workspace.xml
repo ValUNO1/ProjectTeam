@@ -2,13 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ProjectTeam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectTeam.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/unitTest_loginGood.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/author_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/authorlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/authorlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/book_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/booklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/booklist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/genre_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/genre_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/genrelist.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/genrelist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/templates/cart/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/about_pics/about_dorcas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/defaul_genre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/static/mfl/library.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/static/mfl/library.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/static/mfl/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/static/mfl/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/templates/mfl/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/templates/mfl/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/templates/mfl/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl_bookstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl_bookstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/template/orders/order/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/template/orders/order/pdf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/mfl/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/mfl/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,8 +74,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in unitTest_loginGood.py">
+  <component name="RunManager" selected="Python tests.Python tests in LoginLogout.py">
     <configuration name="ProjectTeam" type="Python.DjangoServer" factoryName="Django server">
       <module name="ProjectTeam" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,12 +100,57 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in unitTest_loginGood.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in AddBookAdmin.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ProjectTeam" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/AddBookAdmin.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in BookAddedToCart.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ProjectTeam" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/BookAddedToCart.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in LoginLogout.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ProjectTeam" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/LoginLogout.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in /Users/dorcashodonou/Documents/GitHub/ProjectTeam/Tests/unitTest_loginGood.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ProjectTeam" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -77,7 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in unitTest_loginGood.py" />
+        <item itemvalue="Python tests.Python tests in LoginLogout.py" />
+        <item itemvalue="Python tests.Python tests in BookAddedToCart.py" />
+        <item itemvalue="Python tests.Python tests in AddBookAdmin.py" />
+        <item itemvalue="Python tests.Python tests in /Users/dorcashodonou/Documents/GitHub/ProjectTeam/Tests/unitTest_loginGood.py" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +200,11 @@
       <workItem from="1651031836295" duration="8953000" />
       <workItem from="1651608385563" duration="1218000" />
       <workItem from="1651775740944" duration="1113000" />
+      <workItem from="1651781832640" duration="1458000" />
+      <workItem from="1651787183092" duration="786000" />
+      <workItem from="1652204803911" duration="5836000" />
+      <workItem from="1652325466231" duration="8000" />
+      <workItem from="1652328592311" duration="1492000" />
     </task>
     <servers />
   </component>
@@ -130,6 +223,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ProjectTeam$.coverage" NAME=" Coverage Results" MODIFIED="1651776859366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/ProjectTeam$.coverage" NAME=" Coverage Results" MODIFIED="1652330022277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

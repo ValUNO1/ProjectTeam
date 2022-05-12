@@ -31,6 +31,10 @@ class Book(models.Model):
     stock = models.IntegerField()
     status = models.CharField(max_length=200)
 
+    class Meta:
+        ordering = ['title']
+        index_together = ('id',)
+
     def __str__(self):
         return self.title
 
@@ -48,7 +52,7 @@ class Author(models.Model):
         ordering = ['last_name', 'first_name']
 
     def get_absolute_url(self):
-        return reverse('authordetail', args=[str(self.id)])
+        return reverse('authordetail', args=[self.id])
 
     def __str__(self):
         return f'{self.last_name}, {self.first_name}'

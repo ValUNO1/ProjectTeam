@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 import os
 from pathlib import Path
+from braintree import Configuration, Environment
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -43,6 +44,7 @@ INSTALLED_APPS = [
     'bookstore.apps.BookstoreConfig',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
     'crispy_forms',
 ]
 
@@ -125,6 +127,18 @@ USE_TZ = True
 
 CART_SESSION_ID = 'cart'
 
+BRAINTREE_MERCHANT_ID = 'ffxw9y8zcxcvd8g7'  # Merchant ID
+BRAINTREE_PUBLIC_KEY = 'vvhfymrgysvgb8hr'   # Public Key
+BRAINTREE_PRIVATE_KEY = 'bb83266ba58d1714bb616ffb2a24b74d'  # Private key
+
+Configuration.configure(
+    Environment.Sandbox,
+    BRAINTREE_MERCHANT_ID,
+    BRAINTREE_PUBLIC_KEY,
+    BRAINTREE_PRIVATE_KEY
+)
+
+
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -135,18 +149,17 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = 'home'
 LOGIN_URL = 'login'
 
-EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
-EMAIL_FILE_PATH = BASE_DIR / 'sent_emails'
+#EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
+#EMAIL_FILE_PATH = BASE_DIR / 'sent_emails'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# config/settings.py
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'isqa3900team12@gmail.com'
+EMAIL_HOST_PASSWORD = 'team12p@ssword'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'bhargavkishore111@gmail.com'
-EMAIL_HOST_PASSWORD = 'asnndevsugvfeqyd'
+EMAIL_USE_TLS = True

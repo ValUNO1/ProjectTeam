@@ -1,12 +1,14 @@
 {% extends 'mfl/base.html' %}
-
 {% block content %}
   <h1>Book List</h1>
   {% if books %}
   <ul>
     {% for book in books %}
-        <a href="{{ book.get_absolute_url }}">
+        <a style="display: inline-block; margin: 10px" href="{{ book.get_absolute_url }}">
             <img src="{{ book.image.url }}" title="{{ book.title }}" width="200px" height="250px">
+            <p>
+                {{ book.title }}
+            </p>
         </a>
     {% endfor %}
   </ul>

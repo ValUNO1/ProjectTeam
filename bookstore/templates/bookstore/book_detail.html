@@ -9,8 +9,8 @@
   <p><strong>Genre:</strong> <a href="{{ book.genre.get_absolute_url }}">{{ book.genre }}</a></p>
 
   <div style="margin-left:20px;margin-top:20px;">
-    <h4 style="color: white">Purchase</h4>
-      <hr>
+    <hr>
+    <h4>Purchase</h4>
       <p><strong>Status:</strong>{{ book.status }}</p>
       {% if book.status == 'unavailable' %}
         <p><strong>We are sorry this book is not available at this moment. Check back again soon!</strong></p>
@@ -18,11 +18,11 @@
           <p><strong>Stock:</strong> {{ book.stock }}</p>
           <p><strong>Price:</strong> ${{ book.price }}</p>
           <form action="{% url 'cart:cart_add' book.id %}" method="post">
-          {{ cart_product_form }}
+          {{ cart_book_form }}
           {% csrf_token %}
           <input type="submit" value="Add to cart">
-        </form>
-        {{ product.description|linebreaks }}
-      {% endif %}
+          </form>
+          {{ book.description|linebreaks }}
+        {% endif %}
   </div>
 {% endblock %}

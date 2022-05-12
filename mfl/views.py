@@ -6,15 +6,19 @@ from .models import Post
 
 
 def home(request):
+    return render(request, 'mfl/home.html')
+
+
+def bookclub(request):
     context = {
         'posts': Post.objects.all()
     }
-    return render(request, 'mfl/home.html', context)
+    return render(request, 'mfl/bookclub.html', context)
 
 
 class PostListView(ListView):
     model = Post
-    template_name = 'mfl/home.html'
+    template_name = 'mfl/bookclub.html'
     context_object_name = 'posts'
     ordering = ['-date_posted']
     paginate_by = 5

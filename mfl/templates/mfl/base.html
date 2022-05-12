@@ -8,8 +8,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--- shopping cart --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="{% static '/mfl/main.css' %}">
 
@@ -21,75 +27,59 @@
     {% endif %}
 </head>
 <body>
-    <header class="site-header">
-      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
-        <div class="container">
-          <a class="navbar-brand mr-4" href="{% url 'home' %}">MyFavoriteLibrary</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{% url 'home' %}">MyFavoriteLibrary</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarToggle">
-            <div class="navbar-nav mr-auto">
-                <a class="nav-item nav-link" href="{% url 'home' %}">Home</a>
-                <a class="nav-item nav-link" href="{% url 'about' %}">About</a>
-            </div>
-            <!-- Navbar Right Side -->
-            <div class="navbar-nav">
+        </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
                 {% if user.is_authenticated %}
-                    <a class="nav-item nav-link" href="{% url 'bookshelf' %}">BookShelf</a>
-                    <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
-                    <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                    <li><a class="nav-item nav-link" href="{% url 'bookclub' %}">BookClub</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="{% url 'bookshelf' %}">BookShelf <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{% url 'booklist' %}">Book List</a></li>
+                                <li><a href="{% url 'authorlist' %}">Author List</a></li>
+                                <li><a href="{% url 'genrelist' %}">Genre List</a></li>
+                            </ul>
+                    </li>
+            </ul>
 
-                    <div class="cart">
+            <!-- Navbar Right Side -->
+            <ul class="nav navbar-nav navbar-right">
+                    <li><a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a></li>
+                    <li><div style="color: white" class="cart">
                       {% with total_items=cart|length %}
                           {% if cart|length > 0 %}
-                            Your cart:
+                            <i class="fa fa-shopping-cart" style="font-size:24px"></i>
                             <a href="{% url 'cart:cart_detail' %}">
                               {{ total_items }} item{{ total_items|pluralize }},
                               ${{ cart.get_total_price }}
                             </a>
                           {% else %}
-                            Your cart is empty.
+                            <i class="fa fa-shopping-cart" style="font-size:24px"></i>
                           {% endif %}
                         {% endwith %}
-                    </div>
-
+                    </div></li>
+                    <li><a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a></li>
                 {% else %}
-                    <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
-                    <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+                    <li><a class="nav-item nav-link" href="{% url 'login' %}">Login</a></li>
+                    <li><a class="nav-item nav-link" href="{% url 'register' %}">Register</a></li>
                 {% endif %}
-            </div>
+            </ul>
           </div>
-        </div>
-      </nav>
-    </header>
-    <main role="main" class="container">
-      <div class="row">
-        <div class="col-md-8">
-          {% if messages %}
-              {% for message in messages %}
-                  <div class="alert alert-{{ message.tags }}">
-                  {{ message }}
-                  </div>
-              {% endfor %}
-          {% endif %}
-          {% block content %}{% endblock %}
-        </div>
-        <div class="col-md-4">
-          <div class="content-section">
-            <h3>Shortcuts</h3>
-            <p class='text-muted'>Quick navigation.
-              <ul class="list-group">
-              <li class="list-group-item list-group-item-light"><a href="{% url 'booklist' %}">View all Books</a></li>
-              <li class="list-group-item list-group-item-light"><a href="{% url 'authorlist' %}">Browse books by author</a></li>
-              <li class="list-group-item list-group-item-light"><a href="{% url 'genrelist' %}">Browse books by genre</a></li>
-                <li class="list-group-item list-group-item-light">etc</li>
-              </ul>
-            </p>
-          </div>
-        </div>
-      </div>
-    </main>
+    </div>
+  </nav>
+
+        {% block content %}{% endblock %}
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 

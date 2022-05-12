@@ -1,8 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Book, Author, Genre
 from django.views.generic import ListView, DetailView
-from cart.forms import CartAddProductForm
+from cart.forms import CartAddBookForm
 
 
 def bookshelf(request):
@@ -18,7 +18,16 @@ class BookListView(LoginRequiredMixin, ListView):
 
 class BookDetailView(LoginRequiredMixin, DetailView):
     model = Book
-    cart_product_form = CartAddProductForm()
+    cart_book_form = CartAddBookForm()
+
+    def book_detail(request, id):
+        book = get_object_or_404(Book,
+                                    id=id)
+        cart_book_form = CartAddBookForm()
+        return render(request,
+                      'bookstore/book_detail.html',
+                      {'book': book,
+                       'cart_book_form': cart_book_form})
 
 
 class AuthorListView(LoginRequiredMixin, ListView):
@@ -41,6 +50,3 @@ class GenreListView(LoginRequiredMixin, ListView):
 
 class GenreDetailView(LoginRequiredMixin, DetailView):
     model = Genre
-
-
-
